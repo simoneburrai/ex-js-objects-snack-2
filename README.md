@@ -7,11 +7,11 @@
 
 1. La stampa del console.log non dovrebbe cambiare, perchè comunque si sta agendo su una proprietà array, e anche qui si ha un reference type.
 
-2. Nell'esecuzione di questo codice sono stato creati due oggetti. Uno nella prima definizione, il secondo con lo spread operator.
+2. Nell'esecuzione di questo codice sono stato creati tre oggetti. Uno nella prima definizione, il secondo con lo spread operator.
 
 **CODE QUESTION 3**
 
-1. Nell'esecuzione del terzo codice sono stati creati tre oggetti. Usando structured clone si crea una deep copy dell'oggetto.
+1. Nell'esecuzione del terzo codice sono stati creati 9 oggetti. Usando structured clone si crea una deep copy dell'oggetto.
 
 **CODE QUESTION 4**
 
@@ -23,7 +23,7 @@
 
 1. Nel primo console log viene stampato chef "Hyur".
 Nel secondo console log viene stampato sempre chef "Hyur". Nel terzo e nel quarto console log viene stampato Hyur 2, perchè maker secondBurger non è stato definito in questo modo : {...hamburger, maker: ...hamburger.maker}.
-2. Vengono comunque creati 2 oggetti, perchè sono presenti due spread operator.
+2. Vengono comunque creati 5 oggetti, perchè sono presenti due spread operator.
 
 
 **CODE QUESTION 6**
